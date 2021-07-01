@@ -34,12 +34,14 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  background-color: grey;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 20px;
 }
 
 .past {
@@ -69,3 +71,16 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+
+
+.h1, h1 {
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  
+ 
+}
+
+
